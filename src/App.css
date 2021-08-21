@@ -1,8 +1,183 @@
+
 body{
- background-color: #C8D0D2;
- margin: 0;
+  font-family:'Montserrat';
+  text-align: center;
+}
+.container-fluid{
+  padding:3% 15% 7%;
+}
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Montserrat', sans-serif; 
+   line-height: 1.5; 
+   font-weight: bold;
 }
 
+/* HEADING */
+
+.big-heading{
+  font-size:4rem;
+  line-height:1.5;
+}
+.section-heading{
+  font-size: 3rem;
+  line-height: 1.5;
+  color: white;
+}
+.title-heading{
+  font-family: 'Rampart One', cursive;
+  line-height: 1.5; 
+  font-weight: bold;
+}
+.subtitle-text{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.5rem;
+  line-height: 1;
+}
+
+/* SECTION */
+
+.colored-section{
+background-color: #7FDBDA;
+color: white;
+padding: 3%;
+}
+.white-section{
+background-color: beige;
+color: black;
+}
+
+/* navigation bar */
+
+.navbar{
+  padding-bottom:1.5rem;
+
+}
+.navbar-brand{
+font-family: 'Rampart One', cursive;
+font-size: 3rem;
+
+}
+.nav-item{
+  padding:0 18px;
+  font-weight: bold;
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-family:'Montserrat';
+  font-weight: lighter;
+}
+.nav-image{
+  width: 10%;
+  border-radius: 100%;
+  padding: 1rem;
+}
+/* button-download */
+
+.download{
+  margin: 5% 3% 5% 0;
+}
+
+/* TITLE SECTION */
+
+#title .container-fluid{
+  padding:3% 15% 5%;
+  text-align: left;
+} 
+
+/* title image */
+.title-image{
+  width: 40%;
+  position:absolute;
+  right:15%;
+  padding:2rem; 
+}
+/* features section */
+#features{
+  padding: 5% 15%;
+  position:relative;
+  
+}
+.feature-icon{
+  color: #7868E6;
+font-size: 3rem;
+padding:0 40%;
+margin-bottom: 1.5rem ;
+
+}
+.feature-icon:hover{
+  color:#B8B5FF;
+}
+.feature-descrip{
+  font-family: 'Ubuntu';
+  padding:0 1.5rem;
+  color: grey;
+}
+.feature-heading{
+font-size: 1.5rem;  
+line-height: 1.5; 
+}
+/* asl section */
+.asl{
+  background-color: beige;
+}
+
+/* TESTIMONIALS */
+
+#testimonials{
+  
+  background-color: #F38BA0;
+}
+.testimonial-image{
+  width:20%;
+  padding:1rem;
+  border-radius: 100%;
+}
+.testimonial-text{
+padding:7% 15%;
+font-size: 3rem;  
+line-height: 1.5; 
+color:white;
+}
+/* press */
+#press{
+  background-color: #ff4c68;
+  padding: 3%;
+}
+.press-img{
+width: 15%;
+margin: 10px 20px;
+}
+/* pricing section */
+#pricing{
+   padding: 5%;
+}
+
+.cta-heading{
+  font-size:3.5rem;
+  line-height: 1.5;
+}
+.price-text{
+font-size: 3rem;  
+line-height: 1.5; 
+}
+.social-icons{
+font-size:2rem; /* or you can use fa-3x,fa-4x classes in the tag itself */
+color:#2b2929;
+padding: 1rem;
+}
+
+
+
+@media(max-width:1028px) {
+   .title-image{
+       width:60%;
+       position: static;
+       transform: rotate(0);
+   }  
+   #title{
+       text-align: center;
+   }
+}
 .card-grid{
   display: grid;
   align-items: center;
