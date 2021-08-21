@@ -23,13 +23,21 @@ function Section_4() {
         <section>
         <div className="asl">
           <div className="row container-fluid">
-            <div className="col-lg-6">
-              <h1>Dyslexia-Invisible disablilty</h1>
-            </div>
-            <div className="col-lg-6">
-              <img src="images/invisible-disorder-dyslexia-dyslexia-boy-vector-editable-file-eps-invisible-disorder-dyslexia-dyslexia-boy-154411835.jpg"/>
-            </div>
+            <div style={{marginTop:'60px'}} className="col-lg-6">
+          <h2>Dyslexia</h2>
+          <div style={{textAlign:'left'}}>
+          ❂ Dyslexia used to be called “reading blindness”<br/>
+          ❂ Dyslexia is linked with genes. Hence, if someone’s parents have dyslexia, it is likely that they have dyslexia as well.<br/>
+          ❂ About 15% of people in the world have dyslexia
+With the right teaching methods and resources, people with dyslexia can learn anything.<br/>
+<strong> We have created flashcards with pictures and text to speech using React as an assistant for dyslexic students to learn how to read.</strong>
+          </div>
+              
         <Flashcardlist flashcards={flashcards}/>
+            </div>
+            <div className="col-lg-6">
+              <img className='img-fluid' style={{marginRight:'-400px',marginTop:'40px'}} src="images/invisible-disorder-dyslexia-dyslexia-boy-vector-editable-file-eps-invisible-disorder-dyslexia-dyslexia-boy-154411835.jpg"/>
+            </div>
             
           </div>
         </div>
