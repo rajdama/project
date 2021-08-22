@@ -4,7 +4,7 @@ function Web_cam_section() {
     return (
         <section className='fp-Video container-fluid'>
         <div>
-            <My_Webcam/>
+     
         </div>
         </section>
     )

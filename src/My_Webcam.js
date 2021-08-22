@@ -70,7 +70,7 @@ function My_Webcam() {
 
   useEffect(()=>{runCoco()},[]);
     return (
-     <div style={{position:'absolute',left:'30%'}}>
+     <div style={{position:'absolute',left:'30%',marginTop:'100px'}}>
             <Webcam
           ref={webcamRef}
           muted={true} 

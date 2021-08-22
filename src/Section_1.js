@@ -39,7 +39,7 @@ function Section_1() {
           <p className="subtitle-text"><span><strong>Be</strong>Enabled</span></p>
         </div>
         <div className="col-lg-6 ">
-          <img className="title-image" src="images\volunteers-helping-disabled-people_179970-643.jpg" alt="iphone-mockup"/>
+          <img className="title-image animated" src="images\volunteers-helping-disabled-people_179970-643.jpg" alt="iphone-mockup"/>
         </div>
       </div>
     </div>

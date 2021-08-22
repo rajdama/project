@@ -19,7 +19,6 @@ function Home() {
     <New_section/> 
     <Section_2/>
     <New_section_Asl/>
-    {/* <Web_cam_section/> */}
     <Section_3/>
     <New_section_Asl_2/>
     <Section_4/>

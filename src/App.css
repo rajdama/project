@@ -5,6 +5,7 @@ body{
   font-family: 'Noto Sans JP', sans-serif;
   font-size: 18px;
   line-height: 2;
+  background-color: black;
 }
 .container-fluid{
   padding:3% 15% 7%;
@@ -45,7 +46,7 @@ color: white;
 padding: 3%;
 }
 .white-section{
-
+background-color: white;
 color: black;
 }
 
@@ -247,6 +248,17 @@ padding: 1rem;
   justify-content: center;
   width: 70%;
   margin: auto;
+}
+#title .animated{
+  animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+@keyframes up-down{
+  0%{
+      transform: translateY(10px);
+  }
+  100%{
+      transform: translateY(-10px);
+  }
 }
 
 
