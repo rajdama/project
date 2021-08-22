@@ -6,7 +6,7 @@ function Section_1() {
               <section id="title" className="colored-section">
     <div className="container-fluid">
 
-      <nav className="navbar navbar-dark  navbar-expand-lg" style={{backgroundColor: "#7868E6"}}>
+      <nav className="navbar navbar-dark  navbar-expand-lg" style={{backgroundColor: "#7868E6",marginBottom:'30px'}}>
         <img src="images\istockphoto-1147148668-612x612.jpg" className="nav-image" alt=""/>
         <a className="navbar-brand " href="">Thought.School.</a>
 
@@ -17,13 +17,16 @@ function Section_1() {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav ms-auto">
             <li className="nav-item">
-              <a className="nav-link" href="#footer">About</a>
+              <a className="nav-link" href="#disabilities">About</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#pricing">ASL</a>
+              <a className="nav-link" href="#asl">ASL</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#cta">FlashCards</a>
+              <a className="nav-link" href="#ADHD">ADHD</a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="#flashcards">Dyslexia</a>
             </li>
           </ul>
         </div>
@@ -39,7 +42,7 @@ function Section_1() {
           <p className="subtitle-text"><span><strong>Be</strong>Enabled</span></p>
         </div>
         <div className="col-lg-6 ">
-          <img className="title-image animated" src="images\volunteers-helping-disabled-people_179970-643.jpg" alt="iphone-mockup"/>
+          <img className="title-image animated"  src="images\volunteers-helping-disabled-people_179970-643.jpg" alt="iphone-mockup"/>
         </div>
       </div>
     </div>

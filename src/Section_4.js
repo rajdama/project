@@ -20,7 +20,7 @@ const flashcards = [{
 }]
 function Section_4() {
     return (
-        <section>
+        <section id='flashcards'>
         <div className="asl">
           <div className="row container-fluid">
             <div style={{marginTop:'60px'}} className="col-lg-6">

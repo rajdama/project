@@ -4,7 +4,7 @@ function New_section_Asl_2() {
     return (
         <>
           
-              <div style={{backgroundColor:'pink',padding:'5%'}}>
+              <div id='ADHD' style={{backgroundColor:'pink',padding:'5%'}}>
         <Speech/>
         </div>
         </>

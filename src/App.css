@@ -5,7 +5,12 @@ body{
   font-family: 'Noto Sans JP', sans-serif;
   font-size: 18px;
   line-height: 2;
-  background-color: black;
+  background-image: url('https://media.discordapp.net/attachments/876551691305107506/878870935808122970/sign-language-and-hand-gestures-icon-collection-vector.png?width=861&height=620');
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+img{
+  border-radius: 20px;
 }
 .container-fluid{
   padding:3% 15% 7%;

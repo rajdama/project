@@ -3,11 +3,11 @@ import React from 'react'
 
 function New_section_Asl() {
     return (
-      <section>
+      <section id='asl'>
       <div className="asl">
         <div className="row container-fluid">
           <div className="col-lg-6">
-            <img style={{ marginLeft: '-200px', marginTop:'100px' }} src="images/deaf-mute-talking.jpg" />
+            <img style={{ marginLeft: '-200px', marginTop:'100px',width:'110%', borderRadius:'20px' }} src="images/deaf-mute-talking.jpg" />
           </div>
           <div style={{ marginTop: '80px' }} className="col-lg-6">
             <h3 style={{ textAlign: 'left', marginLeft: '100px' }}>Speech and Hearing Disability</h3>

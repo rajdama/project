@@ -95,8 +95,8 @@ function My_Webcam() {
      
             textAlign: "center",
             zindex: 8,
-            width: 640,
-            height: 480,
+            width: 600,
+            height: 600,
           }}
         />
         </div>

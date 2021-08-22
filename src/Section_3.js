@@ -13,7 +13,7 @@ function Section_3() {
             <button  className="btn btn-dark btn-lg" style={{ width: '40%', marginLeft: '100px', marginTop: '40px' }}><Link style={{ textDecoration: 'none', color: 'white' }} target='_blank' to="/mycam">ASL</Link></button>
             </div>
             <div className="col-lg-6">
-              <img className='img-fluid' style={{marginRight:'-400px',marginTop:'10px'}} src="images/hands-spelling-word-vote-in-sign-language-vector.jpg"/>
+              <img className='img-fluid' style={{marginRight:'-400px',marginTop:'10px',borderRadius:'20px'}} src="images/hands-spelling-word-vote-in-sign-language-vector.jpg"/>
             </div>
             
           </div>
